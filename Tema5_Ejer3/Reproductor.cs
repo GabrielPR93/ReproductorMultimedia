@@ -22,7 +22,6 @@ namespace Tema5_Ejer3
         {
             base.OnPaint(e);
             Graphics g = e.Graphics;
-            int grosor = 2;
             lblTiempo.Text = xx + ":" + yy;
 
 
@@ -40,7 +39,7 @@ namespace Tema5_Ejer3
 
         }
 
-        //Revisar
+     
         private bool flagIcono;
 
         [Category("Varios")]
